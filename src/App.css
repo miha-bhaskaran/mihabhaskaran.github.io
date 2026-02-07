@@ -1,0 +1,60 @@
+/* Kindle/Book-inspired theme */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=EB+Garamond:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'EB Garamond', 'Crimson Text', Georgia, serif;
+  background-color: #f4f1ea;
+  color: #3e2c2c;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  min-height: 100vh;
+  padding: 60px 40px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.title {
+  font-family: 'Crimson Text', Georgia, serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #481212;
+  margin-bottom: 80px;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .App {
+    padding: 40px 24px;
+  }
+
+  .title {
+    font-size: 2rem;
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .App {
+    padding: 32px 20px;
+  }
+
+  .title {
+    font-size: 1.75rem;
+    margin-bottom: 48px;
+  }
+}
